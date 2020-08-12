@@ -1,1 +1,10 @@
-body{background:blue;}
+body {
+	background: blue;
+}
+
+#centrado {
+	width: 400px;
+	margin: 0 auto;
+	background: grey;
+	display: inlinr-block;
+}

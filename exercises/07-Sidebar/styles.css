@@ -1,3 +1,19 @@
-#wrapper{background: grey;}
-#sidebar{background: blue;}
-#content{background: yellow;}
+#wrapper {
+	background: grey;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	width: 1200px;
+}
+#sidebar {
+	background: blue;
+	float: left;
+	width: 200px;
+	height: 100%;
+}
+#content {
+	background: yellow;
+	float: left;
+	width: 1000px;
+	height: 100%;
+}
